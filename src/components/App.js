@@ -6,11 +6,9 @@ function App() {
 
 
   const [para, setPara] = useState("");
-  console.log(para);
 
    function updatePara(){
     setPara(para +  "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
-    console.log(para);
    }
 
   return (
